@@ -14,10 +14,10 @@ public:
     }
 };
 
-int srch(int inOrder[],int curr,int st,int ed){
-    for(int i=st; i<=ed; ++i){
-        if(inOrder[i]==curr){
-            return i;
+int srch(int inOrder[],int val,int st,int ed){
+    for(int idx=st; idx<=ed; idx++){
+        if(inOrder[idx]==val){
+            return idx;
         }
     }
     return -1;
@@ -28,19 +28,18 @@ Node* buildTree(int postOrder[],int inOrder[],int st,int ed){
     if(st>ed){
         return NULL;
     }
-
-    int curr=postOrder[idx];
+    int curr = postOrder[idx];
     idx--;
-    Node* node = new Node(curr);
-
+    Node* root = new Node(curr);
     if(st==ed){
-        return node;
+        return root;
     }
-    int pos = srch(inOrder,curr,st,ed);
-    node->left = buildTree(postOrder,inOrder,st,pos-1);
-    node->right = buildTree(postOrder,inOrder,pos+1,ed);
 
-    return node;
+    int pos = srch(inOrder,curr,st,ed);
+    root->right = buildTree(postOrder,inOrder,pos+1,ed);
+    root->left = buildTree(postOrder,inOrder,st,pos-1);
+
+    return root;
 }
 
 void prtInorder(Node* root){
@@ -54,11 +53,14 @@ void prtInorder(Node* root){
 
 int main(){
 
-    int postOrder[] = {4,3,6,2,1};
-    int inOrder[] = {4,3,2,6,1};
+    int postOrder[] = {4,2,5,3,1};
+    int inOrder[] = {4,2,1,5,3};
 
     Node* root = buildTree(postOrder,inOrder,0,4);
+
+    //print 
     prtInorder(root);
+
 
     return 0;
 }

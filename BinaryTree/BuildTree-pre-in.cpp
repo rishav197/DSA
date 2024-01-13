@@ -14,12 +14,13 @@ public:
     }
 };
 
-int search(int inOrder[], int val, int st, int ed){
-    for(int i=st; i<=ed; ++i){
-        if(inOrder[i]==val){
-            return i;
+int srch(int inOrder[], int val, int st, int ed){
+    for(int idx=st; idx<=ed; ++idx){
+        if(inOrder[idx]==val){
+            return idx;
         }
     }
+
     return -1;
 }
 
@@ -29,41 +30,45 @@ Node* buildTree(int preOrder[],int inOrder[],int st,int ed){
     if(st>ed){
         return NULL;
     }
-    int val = preOrder[idx];
+    int curr = preOrder[idx];
     idx++;
-    Node* root = new Node(val);
+    Node* root = new Node(curr);
     if(st==ed){
         return root;
     }
 
-    int pos = search(inOrder,val,st,ed);
+
+    int pos = srch(inOrder,curr,st,ed);
     root->left = buildTree(preOrder,inOrder,st,pos-1);
     root->right = buildTree(preOrder,inOrder,pos+1,ed);
 
     return root;
 }
 
-void inOrderprt(Node* root){
+void prtInorder(Node* root){
     if(root==NULL){
         return;
     }
 
-    inOrderprt(root->left);
+    prtInorder(root->left);
     cout<<root->data<<" ";
-    inOrderprt(root->right);
+    prtInorder(root->right);
 }
 
 int main(){
-
+    //Tree-1
     // int preOrder[] = {1,2,4,3,5};
     // int inOrder[] = {4,2,1,5,3};
 
-
+    //Tree-2
     int preOrder[] = {1,2,4,5,3,6,7};
     int inOrder[] = {4,2,5,1,6,3,7};
 
+    //Build Tree
     Node* root = buildTree(preOrder,inOrder,0,6);
-    inOrderprt(root); // Print of the Build Tree 
+    //Print
+    prtInorder(root);
+
 
     return 0;
 }
