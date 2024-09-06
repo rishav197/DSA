@@ -15,3 +15,14 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 10 | BT Level Order Traversal |  | Medium | [view](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | [view](https://github.com/rishav197/DSA/blob/main/BinaryTree/BT-level-order-trsl.cpp) 
 10+ | Sum of Longest Bloodline |  | Medium | [view](https://www.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1) | [view](https://github.com/rishav197/DSA/blob/main/BinaryTree/sum-of-longest-Bloodline.cpp) 
 
+
+
+
+# Binary Search Tree - BST
+S.No. | Problem | Approach/Logic used | Level | Link | Solution |
+------|---------|---------------------|-------|------|----------|
+| 1 | Problem   |  | Easy | [view]() | [view]() |
+
+<!--
+|1 | Problem   |  | Easy | [view]() | [view]() |
+ -->
