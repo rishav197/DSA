@@ -1,58 +1,90 @@
 #include <bits/stdc++.h>
 using namespace std;
-/*Build a BST */
 
 class Node{
-public:
+public: 
     int data;
     Node* left;
     Node* right;
 
-    Node(int _data){
-        data=_data;
-        left=NULL;
-        right=NULL;
+    Node(int d){
+        this->data=d;
+        this->left=NULL;
+        this->right=NULL;
     }
 };
 
-
-Node* insertBST(Node* root, int val){
+Node* insertIntoBST(Node* root, int d){
+    //base case
     if(root==NULL){
-        return new Node(val);
+        root = new Node(d);
+        return root;
     }
 
-    if(val<root->data){
-        root->left = insertBST(root->left, val);
+    if(d > root->data){
+        //Insert in Right part
+        root->right = insertIntoBST(root->right, d);
     }
-    else{ //val>root->data
-        root->right = insertBST(root->right, val);
+    else{
+        //Insert in Left Part
+        root->left = insertIntoBST(root->left, d);
     }
 
     return root;
 }
 
-void inOrderprt(Node* root){
-    if(root==NULL){
-        return;
+void takeInput(Node* &root){
+    int data;
+    cin>>data;
+
+    while(data != -1){
+        root = insertIntoBST(root,data);
+        cin>>data;
     }
+}
 
-    inOrderprt(root->left);
-    cout<<root->data<<" ";
-    inOrderprt(root->right);
+void lvlOrderTrsl(Node* root){
 
+    queue<Node*> q;
+    q.push(root);
+    q.push(NULL);
+
+    while(!q.empty()){
+        Node* topNode = q.front();
+        q.pop();
+
+        if(topNode==NULL){
+            //purana level complete traverse ho chuka hai 
+            cout<<endl;
+            if(!q.empty()){
+                //queue still has some child nodes
+                q.push(NULL);
+            }
+        }
+        else{
+            //traversing at a level
+            cout<<topNode->data<<" ";
+            if(topNode->left){
+                q.push(topNode->left);
+            }
+            if(topNode->right){
+                q.push(topNode->right);
+            }
+        }
+      
+    }
 }
 
 int main(){
 
-    // Node* root = NULL;
-    // root = insertBST(root,5);
-    // insertBST(root,1);
-    // insertBST(root,3);
-    // insertBST(root,4);
-    // insertBST(root,2);
-    // insertBST(root,7);
+    Node* root = NULL;
 
+    cout<<"Enter data to create BST"<<endl;
+    takeInput(root);
 
+    cout<<"Printing the BST"<<endl;
+    lvlOrderTrsl(root);
+   
 
     return 0;
 }

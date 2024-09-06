@@ -16,31 +16,35 @@ public:
 };
 
 
-void prtLevelOrder(Node* root){
-    if(root==NULL){
-        return;
-    }
+void lvlOrderTrsl(Node* root){
 
     queue<Node*> q;
     q.push(root);
     q.push(NULL);
 
     while(!q.empty()){
-        Node* node = q.front();
+        Node* topNode = q.front();
         q.pop();
 
-        if(node!=NULL){
-            cout<<node->data<<" ";
-            if(node->left){
-                q.push(node->left);
-            }
-            if(node->right){
-                q.push(node->right);
+        if(topNode==NULL){
+            //purana level complete traverse ho chuka hai 
+            cout<<endl;
+            if(!q.empty()){
+                //queue still has some child nodes
+                q.push(NULL);
             }
         }
-        else if(!q.empty()){
-            q.push(NULL); cout<<endl;
+        else{
+            //traversing at a level
+            cout<<topNode->data<<" ";
+            if(topNode->left){
+                q.push(topNode->left);
+            }
+            if(topNode->right){
+                q.push(topNode->right);
+            }
         }
+      
     }
 }
 
