@@ -22,6 +22,7 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 ------|---------|---------------------|-------|------|----------|
 | 1 | Validate BST |  | Easy | [view](https://www.naukri.com/code360/problems/validate-bst_799483?leftPanelTab=0) | [view](https://github.com/rishav197/DSA/blob/main/BST/Validate-BST.cpp) |
+| 2 | Two sum in BST |  | Medium | [view]() | [view]() |
 
 <!--
 |1 | Problem   |  | Easy | [view]() | [view]() |
