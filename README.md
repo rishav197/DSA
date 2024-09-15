@@ -23,6 +23,7 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 ------|---------|---------------------|-------|------|----------|
 | 1 | Validate BST |  | Easy | [view](https://www.naukri.com/code360/problems/validate-bst_799483?leftPanelTab=0) | [view](https://github.com/rishav197/DSA/blob/main/BST/Validate-BST.cpp) |
 | 2 | Two sum in BST |  | Medium | [view](https://www.naukri.com/code360/problems/two-sum-in-a-bst_1062631?leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/BST/two-sum-in-bst.cpp) |
+| 3 | Flatten BST to Sorted Linked List |  | Medium | [view](https://www.naukri.com/code360/problems/flatten-bst-to-a-sorted-list_1169459?leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/BST/Flatten-BST-to-Sorted-LL.cpp) |
 
 <!--
 |1 | Problem   |  | Easy | [view]() | [view]() |
