@@ -26,7 +26,7 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 | 3 | Flatten BST to Sorted Linked List |  | Medium | [view](https://www.naukri.com/code360/problems/flatten-bst-to-a-sorted-list_1169459?leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/BST/Flatten-BST-to-Sorted-LL.cpp) |
 | 4 | Normal BST to Balanced BST |  | Medium | [view](https://www.naukri.com/code360/problems/normal-bst-to-balanced-bst_920472?leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/BST/Normal-bst-to-balanced-bst.cpp) |
 | 5 | Merge two BSTs |  | Medium | [view](https://www.naukri.com/code360/problems/h_920474?leftPanelTab=0&utm_source=youtube&utm_medium=affiliate&utm_campaign=Lovebabbar) | [view](https://github.com/rishav197/DSA/blob/main/BST/merge-two-bsts.cpp) |
-
+| 6 | Largest BST in a BT |  | Hard | [view](https://www.naukri.com/code360/problems/largest-bst-subtree_893103?leftPanelTab=0&utm_source=youtube&utm_medium=affiliate&utm_campaign=Lovebabbar&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/BST/largest-BST-in-BT.cpp) |
 
 <!--
 |1 | Problem   |  | Easy | [view]() | [view]() |
