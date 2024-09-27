@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//for max heap
+//Build Max Heap using heapify algo
 
 void heapify(int arr[], int n, int i){
     int largest=i;
