@@ -32,7 +32,7 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 ------|---------|---------------------|-------|------|----------|
 | 1 | Insertion and Deletion in Heap |  |  | [view]() | [view](https://github.com/rishav197/DSA/blob/main/Heaps/Insertion-Deletion-in-heaps.cpp) |
-| 2 | Build Min Heap |  | Easy | [view]() | [view]() |
+| 2 | Build Min Heap |  | Easy | [view](https://www.naukri.com/code360/problems/build-min-heap_1171167?leftPanelTab=0&utm_source=youtube&utm_medium=affiliate&utm_campaign=Lovebabbar&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Heaps/build-min-heap.cpp) |
 
 <!--
 |1 | Problem   |  | Easy | [view]() | [view]() |
