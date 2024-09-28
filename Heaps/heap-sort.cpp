@@ -35,7 +35,7 @@ void heapSort(int arr[], int n){
     
 }
 
-int main(){
+int main(){ 
 
     int arr[] = {-1, 54, 53, 55, 52, 50, -90, 33, 5, 85, 66};
     int n = 10;
