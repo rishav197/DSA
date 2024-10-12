@@ -34,8 +34,8 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 | 1 | Insertion and Deletion in Heap |  |  | [view]() | [view](https://github.com/rishav197/DSA/blob/main/Heaps/Insertion-Deletion-in-heaps.cpp) |
 | 2 | Build Min Heap |  | Easy | [view](https://www.naukri.com/code360/problems/build-min-heap_1171167?leftPanelTab=0&utm_source=youtube&utm_medium=affiliate&utm_campaign=Lovebabbar&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Heaps/build-min-heap.cpp) |
 | 3 | Kth Smallest | using priority queue as maxheap | Easy | [view](https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1) | [view](https://github.com/rishav197/DSA/blob/main/Heaps/kth-smallest.cpp) |
-| 4 | Is BT Heap |  | Medium | [view](https://www.geeksforgeeks.org/problems/is-binary-tree-heap/1) | [view](https://github.com/rishav197/DSA/blob/main/Heaps/isBT-heap.cpp) |
-|1 | Problem   |  | Easy | [view]() | [view]() |
+| 4 | Is BT Heap | Heap follows two properties that's heap should be a CBT(complete BT) and should follow heap order property either max/min heap order | Medium | [view](https://www.geeksforgeeks.org/problems/is-binary-tree-heap/1) | [view](https://github.com/rishav197/DSA/blob/main/Heaps/isBT-heap.cpp) |
+| 5 |  |  | Easy | [view]() | [view]() |
 
 
 <!--
