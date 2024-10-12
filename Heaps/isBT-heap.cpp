@@ -1,59 +1,70 @@
+// Structure of node
+/*struct Node {
+    int data;
+    Node *left;
+    Node *right;
+
+    Node(int val) {
+        data = val;
+        left = right = NULL;
+    }
+};*/
+
 class Solution {
   public:
     int countNodes(struct Node* root){
-        //base case
         if(root==NULL){
             return 0;
         }
         
-        int ans = 1 + countNodes(root->left) + countNodes(root->right);
-        return ans;
+        int sum = 1 + countNodes(root->left) + countNodes(root->right);
+        return sum;
     }
     
-    bool isCBT(struct Node* root, int index, int cnt){
+    bool isCBT(struct Node* root, int idx, int totalNodes){
         if(root==NULL){
             return true;
-        }
+        }   
         
-        if(index>=cnt){
+        if(idx>=totalNodes){
             return false;
         }
         
-        else{
-            bool left = isCBT(root->left, 2*index+1, cnt);
-            bool right = isCBT(root->right, 2*index+2, cnt);
-            
-            return (left and right);
-        }
+        bool left = isCBT(root->left, 2*idx+1, totalNodes);
+        bool right = isCBT(root->right, 2*idx+2, totalNodes);
+        
+        return left and right;
     }
     
     bool isMaxOrder(struct Node* root){
         //leaf node
-        if(root->left == NULL and root->right==NULL){
+        if(root->left==NULL and root->right==NULL){
             return true;
         }
         
+        //only left child exist
         if(root->right==NULL){
-            return (root->data>root->left->data);
+            return root->data > root->left->data;
         }
-        else{
+        
+        else{ //both child exist
             bool left = isMaxOrder(root->left);
             bool right = isMaxOrder(root->right);
             
-            return (left and right and (root->data>root->left->data and root->data>root->right->data));
+            return left and right and ((root->data > root->left->data) and (root->data > root->right->data));
         }
     }
     
     bool isHeap(struct Node* tree) {
-        int index=0;
-        int totalCount = countNodes(tree);
+        int idx=0;
+        int totalNodes = countNodes(tree);
         
-        if(isCBT(tree, index, totalCount) and isMaxOrder(tree)){
-            return true;   
+        if(isCBT(tree,idx,totalNodes) and isMaxOrder(tree)){
+            return true;
         }
         else{
             return false;
         }
+        
     }
 };
-
