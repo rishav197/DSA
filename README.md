@@ -36,6 +36,7 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 | 3 | Kth Smallest | using priority queue as maxheap | Easy | [view](https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1) | [view](https://github.com/rishav197/DSA/blob/main/Heaps/kth-smallest.cpp) |
 | 4 | Is BT Heap | Heap follows two properties that's heap should be a CBT(complete BT) and should follow heap order property either max/min heap order | Medium | [view](https://www.geeksforgeeks.org/problems/is-binary-tree-heap/1) | [view](https://github.com/rishav197/DSA/blob/main/Heaps/isBT-heap.cpp) |
 | 5 | kth largest sum subarray | two approaches, one is using nested for loop and another one is using min heap | Medium | [view](https://www.naukri.com/code360/problems/k-th-largest-sum-contiguous-subarray_920398?leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Heaps/kth-largest-sum-subarray.cpp) |
+| 6 | Merge K Sorted Arrays | two approaches | Medium | [view](https://www.naukri.com/code360/problems/merge-k-sorted-arrays_975379?leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view]() |
 
 
 <!--
