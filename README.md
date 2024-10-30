@@ -17,7 +17,6 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 
 
 
-
 # Binary Search Tree - BST
 S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 ------|---------|---------------------|-------|------|----------|
@@ -28,6 +27,8 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 | 5 | Merge two BSTs |  | Medium | [view](https://www.naukri.com/code360/problems/h_920474?leftPanelTab=0&utm_source=youtube&utm_medium=affiliate&utm_campaign=Lovebabbar) | [view](https://github.com/rishav197/DSA/blob/main/BST/merge-two-bsts.cpp) |
 | 6 | Largest BST in a BT |  | Hard | [view](https://www.naukri.com/code360/problems/largest-bst-subtree_893103?leftPanelTab=0&utm_source=youtube&utm_medium=affiliate&utm_campaign=Lovebabbar&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/BST/largest-BST-in-BT.cpp) |
 
+
+
 # Heaps
 S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 ------|---------|---------------------|-------|------|----------|
@@ -37,7 +38,7 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 | 4 | Is BT Heap | Heap follows two properties that's heap should be a CBT(complete BT) and should follow heap order property either max/min heap order | Medium | [view](https://www.geeksforgeeks.org/problems/is-binary-tree-heap/1) | [view](https://github.com/rishav197/DSA/blob/main/Heaps/isBT-heap.cpp) |
 | 5 | kth largest sum subarray | two approaches, one is using nested for loop and another one is using min heap | Medium | [view](https://www.naukri.com/code360/problems/k-th-largest-sum-contiguous-subarray_920398?leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Heaps/kth-largest-sum-subarray.cpp) |
 | 6 | Merge K Sorted Arrays | two approaches | Medium | [view](https://www.naukri.com/code360/problems/merge-k-sorted-arrays_975379?leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Heaps/merge-K-sorted-arrays.cpp) |
-| 7 | Smallest Range from K sorted list |  | Medium | [view](https://www.naukri.com/code360/problems/smallest-range-from-k-sorted-list_1069356?leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view]() |
+| 7 | Smallest Range from K sorted list |  | Medium | [view](https://www.naukri.com/code360/problems/smallest-range-from-k-sorted-list_1069356?leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Heaps/Smallest-range-from-K-sorted-list.cpp) |
 
 
 <!--
