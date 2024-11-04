@@ -1,3 +1,54 @@
+/*Leetcode problem, Heap Sort (lc-912)*/
+class Solution {
+public:
+    void heapify(vector<int>& arr, int n, int idx){
+        int largest = idx;
+        int ltIdx = 2*idx+1;
+        int rtIdx = 2*idx+2;
+        
+        if(ltIdx<n and arr[ltIdx]>arr[largest]){
+            largest = ltIdx;
+        }
+        
+        if(rtIdx<n and arr[rtIdx]>arr[largest]){
+            largest = rtIdx; 
+        }
+        
+        if(largest!=idx){
+            swap(arr[idx], arr[largest]);
+            heapify(arr, n, largest);
+        }
+    }
+
+    void buildHeap(vector<int>& arr, int n){
+        for(int idx=n/2-1; idx>=0; idx--){
+            heapify(arr, n, idx);
+        }
+    }
+
+    vector<int> sortArray(vector<int>& nums) {
+        int n = nums.size();
+
+        //build heap
+        buildHeap(nums, n);
+
+        //sort
+        int size = n;
+        while(size>1){
+            //step1:
+            swap(nums[0], nums[size-1]);
+            size-=1;
+
+            //step2:
+            heapify(nums, size, 0);
+        }
+
+        return nums;
+    }
+};
+
+
+/* by Codehelp tutorial */
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -62,3 +113,5 @@ int main(){
 
     return 0;
 }
+
+
