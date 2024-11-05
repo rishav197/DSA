@@ -1,46 +1,46 @@
+// User function Template for C++
 
 class Solution{
     public:
-    void heapify(vector<int> &arr, int n, int i){
-        // 0 based indexing 
-        int largest=i;
-        int left = 2*i+1;
-        int right = 2*i+2;
-
-        if(left<n && arr[largest] < arr[left]){
-            largest=left;
+    
+    void heapify(vector<int> &arr, int N, int idx){
+        //0 based indexing
+        int largest = idx;
+        int ltIdx = 2*idx+1; 
+        int rtIdx = 2*idx+2;
+        
+        if(ltIdx<N and arr[ltIdx]>arr[largest]){
+            largest = ltIdx;
         }
-        if(right<n && arr[largest] < arr[right]){
-            largest=right;
+        
+        if(rtIdx<N and arr[rtIdx]>arr[largest]){
+            largest = rtIdx;
         }
-
-        if(largest!=i){
-            swap(arr[largest], arr[i]);
-            heapify(arr, n, largest);
-        }
-
+        
+        if(largest!=idx){
+            swap(arr[idx], arr[largest]);
+            heapify(arr, N, largest);
+        }       
     }
     
     vector<int> mergeHeaps(vector<int> &a, vector<int> &b, int n, int m) {
+        vector<int> c;
         
-        //step1: merge both arrays into one
-        vector<int> ans;
-
-        for(auto i: a){
-            ans.push_back(i);
+        //step1: merge two given arrays a & b into c
+        for(auto item : a){
+            c.push_back(item);
+        }
+        for(auto item : b){
+            c.push_back(item);
         }
         
-        for(auto i: b){
-            ans.push_back(i);
+        
+        //step2: heapify non leaf nodes
+        int N = n+m;
+        for(int idx=N/2-1; idx>=0; idx--){
+            heapify(c, N, idx);
         }
         
-        
-        //step2: build heap using merged array
-        int size = ans.size();
-        for(int idx=size/2-1; idx>=0; idx--){
-            heapify(ans, size, idx);
-        }
-        
-        return ans;
+        return c;
     }
 };
