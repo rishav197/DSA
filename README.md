@@ -45,6 +45,12 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 | 11 | Median in a Stream | two approaches, one is bruteforce and another is using min and max heaps | Hard | [view](https://www.naukri.com/code360/problems/median-in-a-stream_975268?leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Heaps/median-in-a-stream.cpp) |
 
 
+# Graph DS
+S.No. | Problem | Approach/Logic used | Level | Link | Solution |
+------|---------|---------------------|-------|------|----------|
+| 1 | Implementation of graph using Adjacency List |  |  | [view]() | [view](https://github.com/rishav197/DSA/blob/main/Graph/basics-of-graph/adjacency-list.cpp) |
+| 2 | Implementation of graph using Adjacency Matrix |  |  | [view]() | [view](https://github.com/rishav197/DSA/blob/main/Graph/basics-of-graph/adjacency-matrix.cpp) |
+
 <!--
 |1 | Problem   |  | Easy | [view]() | [view]() |
  -->
