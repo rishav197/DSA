@@ -13,7 +13,7 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 8 | Tree Identical or Not |  | Easy | [view](https://www.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1) | [view](https://github.com/rishav197/DSA/blob/main/BinaryTree/Tree-Identical-or-Not.cpp) 
 9 | Sum Tree or Not |  | Medium | [view](https://www.geeksforgeeks.org/problems/sum-tree/1) | [view](https://github.com/rishav197/DSA/blob/main/BinaryTree/Sum-Tree-or-Not.cpp) 
 10 | BT Level Order Traversal |  | Medium | [view](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | [view](https://github.com/rishav197/DSA/blob/main/BinaryTree/BT-level-order-trsl.cpp) 
-10+ | Sum of Longest Bloodline |  | Medium | [view](https://www.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1) | [view](https://github.com/rishav197/DSA/blob/main/BinaryTree/sum-of-longest-Bloodline.cpp) 
+11 | Sum of Longest Bloodline |  | Medium | [view](https://www.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1) | [view](https://github.com/rishav197/DSA/blob/main/BinaryTree/sum-of-longest-Bloodline.cpp) 
 
 
 
