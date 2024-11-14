@@ -50,6 +50,9 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 ------|---------|---------------------|-------|------|----------|
 | 1 | Implementation of graph using Adjacency List |  |  | [view]() | [view](https://github.com/rishav197/DSA/blob/main/Graph/basics-of-graph/adjacency-list.cpp) |
 | 2 | Implementation of graph using Adjacency Matrix |  |  | [view]() | [view](https://github.com/rishav197/DSA/blob/main/Graph/basics-of-graph/adjacency-matrix.cpp) |
+| 3 | Creating and Printing |  | Easy | [view](https://www.naukri.com/code360/problems/create-a-graph-and-print-it_1214551?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Graph/basics-of-graph/creating-and-printing.cpp) |
+
+
 
 <!--
 |1 | Problem   |  | Easy | [view]() | [view]() |
