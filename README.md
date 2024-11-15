@@ -52,6 +52,7 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 | 2 | Implementation of graph using Adjacency Matrix |  |  | [view]() | [view](https://github.com/rishav197/DSA/blob/main/Graph/basics-of-graph/adjacency-matrix.cpp) |
 | 3 | Creating and Printing |  | Easy | [view](https://www.naukri.com/code360/problems/create-a-graph-and-print-it_1214551?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Graph/basics-of-graph/creating-and-printing.cpp) |
 | 4 | BFS in Graph |  | Medium | [view](https://www.naukri.com/code360/problems/bfs-in-graph_973002?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Graph/BFS-and-DFS/BFS-in-graph.cpp) |
+| 5 | DFS in Graph |  | Medium | [view]() | [view](https://github.com/rishav197/DSA/blob/main/Graph/BFS-and-DFS/DFS-in-graph.cpp) |
 
 
 
