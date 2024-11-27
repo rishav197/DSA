@@ -55,6 +55,7 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 | 5 | DFS in Graph |  | Medium | [view]() | [view](https://github.com/rishav197/DSA/blob/main/Graph/BFS-and-DFS/DFS-in-graph.cpp) |
 | 6 | Cycle Detection in Undirected Graphs using BFS | BFS and a condition `visited[neighbour]==true and neighbour!=parent[front]` | Medium | [view](https://www.naukri.com/code360/problems/cycle-detection-in-undirected-graph_1062670?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Graph/BFS-and-DFS/Cycle-detection-in-undirected-graph-using-BFS.cpp) |
 | 7 | Cycle Detection in Undirected Graphs using DFS | DFS and a condition `visited[neighbour]==true and neighbour!=parent` | Medium | [view](https://www.naukri.com/code360/problems/cycle-detection-in-undirected-graph_1062670?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Graph/BFS-and-DFS/Cycle-detection-in-undirected-graph-using-DFS.cpp) |
+| 8 | Cycle Detection in directed Graphs using DFS |  | Medium | [view](https://www.naukri.com/code360/problems/detect-cycle-in-a-directed-graph_1062626?leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Graph/BFS-and-DFS/Cycle-detection-in-directed-graph-DFS.cpp) |
 
 
 
