@@ -58,6 +58,7 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 | 8 | Cycle Detection in directed Graphs using DFS |  | Medium | [view](https://www.naukri.com/code360/problems/detect-cycle-in-a-directed-graph_1062626?leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Graph/BFS-and-DFS/Cycle-detection-in-directed-graph-DFS.cpp) |
 | 9 | Topological Sort |  | Medium | [view](https://www.naukri.com/code360/problems/topological-sort_982938?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Graph/Topological-Sort/topoSort-using-DFS.cpp) |
 | 10 | TopoSort using Kanh's algo |  | Medium | [view](https://www.naukri.com/code360/problems/topological-sort_982938?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Graph/Topological-Sort/topoSort-using-Kahns-algo.cpp) |
+| 11 | Cycle Detection in directed graph using TopoSort |  | Medium | [view](https://www.naukri.com/code360/problems/detect-cycle-in-a-directed-graph_1062626?leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Graph/Topological-Sort/cycle-detection-in-directed-graph-using-topoSort.cpp) |
 
 
 
