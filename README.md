@@ -60,6 +60,7 @@ S.No. | Problem | Approach/Logic used | Level | Link | Solution |
 | 10 | TopoSort using Kanh's algo |  | Medium | [view](https://www.naukri.com/code360/problems/topological-sort_982938?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Graph/Topological-Sort/topoSort-using-Kahns-algo.cpp) |
 | 11 | Cycle Detection in directed graph using TopoSort |  | Medium | [view](https://www.naukri.com/code360/problems/detect-cycle-in-a-directed-graph_1062626?leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Graph/Topological-Sort/cycle-detection-in-directed-graph-using-topoSort.cpp) |
 | 12 | Shortest Path in Undirected graph |  | Medium | [view](https://www.naukri.com/code360/problems/shortest-path-in-an-unweighted-graph_981297?leftPanelTab=0&leftPanelTabValue=PROBLEM) | [view](https://github.com/rishav197/DSA/blob/main/Graph/Shortest-path-algo/shortest-path-in-UG.cpp) |
+| 13 | Shortest Path in DAG |  | Medium | [view](https://www.naukri.com/code360/library/shortest-path-in-a-directed-acyclic-graph) | [view](https://github.com/rishav197/DSA/blob/main/Graph/Shortest-path-algo/shortest-path-in-DAG.cpp) |
 
 
 
